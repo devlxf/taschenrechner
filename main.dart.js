@@ -68883,7 +68883,7 @@ if(B.c.q(s,"."))s=B.c.hc(B.c.hc(s,A.bl("0+$",!1),""),A.bl("\\.$",!1),"")
 return s+"E"+A.ie(B.c.a4(a,r+1),null)},
 b2(a){var s,r,q,p=this
 if(isNaN(a)||a==1/0||a==-1/0)return"Fehler"
-if(Math.abs(a)<1e-12)a=0
+if(Math.abs(a)<1e-99)a=0
 s=p.z
 if(s===B.e0){r=p.ax
 return p.yG(B.d.OX(a,r<0?6:r))}if(s===B.e1){s=p.ax
@@ -68950,7 +68950,7 @@ if(s.length!==0)s[0]=new A.dT(s[0].a,r,null)},
 r1(a){var s,r,q
 if(isNaN(a)||a==1/0||a==-1/0)return"Fehler"
 s=Math.abs(a)
-if(s<1e-12)return"0"
+if(s<1e-99)return"0"
 r=this.z
 if(r===B.e0)return B.d.OX(a,13)
 if(r===B.e1)return this.JX(a,13)
