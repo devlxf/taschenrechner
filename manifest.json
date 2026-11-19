@@ -2,7 +2,7 @@
     "id": "./",
     "name": "Taschenrechner",
     "short_name": "Taschenrechner",
-    "description": "Schultaschenrechner nach dem Vorbild des TI-30X Plus MathPrint - laeuft auch ohne Netz.",
+    "description": "Wissenschaftlicher Schultaschenrechner mit Bruechen, Statistik und Wertetabelle - laeuft auch ohne Netz.",
     "lang": "de",
     "start_url": "./",
     "scope": "./",

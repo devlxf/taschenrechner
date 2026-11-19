@@ -1,7 +1,7 @@
 // Service Worker des Taschenrechners: macht die Web-App zur PWA, die nach
 // dem ersten Besuch auch ohne Netz startet.
 //
-// Beim Veroeffentlichen (tool/web_veroeffentlichen.ps1) werden 20261119-132116-9c8dff521c9c
+// Beim Veroeffentlichen (tool/web_veroeffentlichen.ps1) werden 20261119-143134-e0bc39e1d5c9
 // und die Vorladeliste eingesetzt. Jede Veroeffentlichung aendert damit
 // diese Datei; der Browser bemerkt das beim naechsten Oeffnen, laedt die
 // neue Fassung komplett in einen eigenen Vorrat und schaltet erst dann um.
@@ -10,7 +10,7 @@
 // Unter `flutter run` (localhost) wird der Service Worker nicht angemeldet,
 // siehe web/flutter_bootstrap.js.
 
-const FASSUNG = '20261119-132116-9c8dff521c9c';
+const FASSUNG = '20261119-143134-e0bc39e1d5c9';
 const VORRAT = 'taschenrechner-' + FASSUNG;
 // Dateien fremder Server (Schriften von fonts.gstatic.com)
 const FREMD = 'taschenrechner-fremd';
@@ -19,7 +19,6 @@ const VORLADEN = [
   'assets/AssetManifest.bin.json',
   'assets/assets/01_HT-Spickzettel.pdf',
   'assets/assets/02_HT-Kurzanleitung.pdf',
-  'assets/assets/03_CLASSIC-Bedienungsanleitung.pdf',
   'assets/assets/03_HT-Bedienungsanleitung.pdf',
   'assets/assets/fonts/LcdDot.ttf',
   'assets/assets/icon.png',
@@ -36,8 +35,8 @@ const VORLADEN = [
   'canvaskit/chromium/canvaskit.js',
   'canvaskit/chromium/canvaskit.wasm',
   'favicon.png',
-  'flutter.js',
   'flutter_bootstrap.js',
+  'flutter.js',
   'icons/Icon-192.png',
   'icons/Icon-512.png',
   'icons/Icon-maskable-192.png',
